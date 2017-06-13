@@ -1,0 +1,10 @@
+{
+    "env": {
+        "karma": {
+            "presets": [
+                ["es2015", { "modules": false }]
+            ],
+            "plugins": ["syntax-dynamic-import", "babel-plugin-rewire"]
+        }
+    }
+}
